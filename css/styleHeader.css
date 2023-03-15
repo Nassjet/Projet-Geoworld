@@ -1,0 +1,44 @@
+/* Style pour les items du dropdown */
+.dropdown-item {
+    color: #333;
+  }
+  
+  /* Couleur pour l'item "Accueil" */
+  .navbar-nav .nav-item .nav-link.active {
+    color: #f00;
+  }
+  
+  /* Couleurs pour chaque continent */
+  .dropdown-menu a[href="?continent=Europe"] {
+    color: #0072c6;
+  }
+  
+  .dropdown-menu a[href="?continent=Asia"] {
+    color: #ff6600;
+  }
+  
+  .dropdown-menu a[href="?continent=Africa"] {
+    color: #008000;
+  }
+  
+  .dropdown-menu a[href="?continent=North%20America"] {
+    color: #bf0000;
+  }
+  
+  .dropdown-menu a[href="?continent=South%20America"] {
+    color: #00b300;
+  }
+  
+  .dropdown-menu a[href="?continent=Oceania"] {
+    color: #0099ff;
+  }
+  
+  .dropdown-menu a[href="?continent=Antarctica"] {
+    color: #c2a1a1;
+  }
+  
+  /* Hover sur les items du dropdown */
+  .dropdown-item:hover {
+    background-color: #7026c5;
+  }
+  

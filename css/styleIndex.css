@@ -1,0 +1,57 @@
+/* Couleur de fond */
+body {
+    background-color: #222;
+  }
+  
+  /* Couleur de texte */
+  body,
+  table,
+  th,
+  td {
+    color: #ddd;
+  }
+  
+  /* Styles pour les liens */
+  a {
+    color: #09f;
+  }
+  
+  a:hover {
+    color: #0cf;
+  }
+  
+  /* Styles pour le tableau */
+  .table {
+    background-color: #333;
+  }
+  
+  .table thead th {
+    background-color: #444;
+    border-color: #555;
+  }
+  
+  .table tbody td {
+    border-color: #555;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #555;
+  }
+  
+  /* Styles pour le dropdown */
+  .dropdown-item {
+    color: #ddd;
+  }
+  
+  .dropdown-menu {
+    background-color: #333;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #444;
+  }
+  
